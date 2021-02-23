@@ -1,0 +1,664 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background:#E4E4E4;
+}
+.container{
+    background:black;
+}
+
+.nav{
+    display:flex;
+    margin:0px 150px;
+}
+.nav nav ul li{
+    text-transform: uppercase;
+}
+.nav nav{
+    flex:1;
+    text-align:right;
+}
+.logo{
+    display:flex;
+    margin-top: 15px;
+}
+.logo h1{
+    color:#C79C60;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav nav ul{
+    list-style-type: none;
+
+}
+.nav nav ul li{
+    display:inline-block;
+    text-align:center;
+    padding:20px;
+    
+}
+.nav nav ul li a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    
+    font-size: 14px;    
+}
+.home{
+    display:flex;
+}
+.home h3{
+    margin-left: 5px;
+    color:#C79C60;
+    margin-top:10px;
+    font-size: 15px;
+}
+.nav nav ul li a:hover{
+    color:#C79C60;
+    transition:all 0.3s ease;
+}
+.fas{
+    color:antiquewhite;
+    display: none !important;
+}
+
+.lights{
+    margin: 0 40px 0 40px;
+    display:flex;
+    justify-content:space-around;
+}
+
+
+.container2{
+    background-color:#282726;
+    height: 1050px;
+
+}
+
+.min-container{
+    display:flex;
+    justify-content:center;
+}
+.min-container .header1{
+    padding:0 20px 0 20px;
+    margin-top:40px;
+}
+.min-container .header{
+    color:white;
+    
+
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+
+}
+.cafe{
+    display:flex;
+    justify-content:space-around;
+    color:#C79C60;
+    font-size: 30px;
+
+}
+.p{
+    display:flex;
+    justify-content:space-around;
+    margin: 0 300px;
+    color:#777572;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.details-bg h2{
+    
+    top: 5px;
+    
+    text-align: center;
+    color:white;
+    font-size: 30px; 
+     
+}
+.details-bg{
+    background:url("../img/tm-brown-button.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+   
+    height: 50px;
+}
+
+.table img{
+    display: block;
+    position: relative;
+    
+    margin: auto;
+    
+    background-size: cover;
+
+
+}
+
+.bg-com{
+    margin: 150px 200px;
+    display:flex;
+
+    
+}
+
+.bg-com .col1{
+
+    margin:0 30px;
+}
+
+
+.bg-com .col1 h1{
+    margin-bottom:10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:40px;
+    color:#C79C60;
+    font-weight: bold;
+}
+
+
+
+.bg-com .col1 h2{
+    margin-bottom:10px;
+    font-size:30px;
+}
+.bg-com .col2 img{
+    border:10px solid rgb(255, 255, 255);
+    border-radius:50%;
+}
+
+
+.bg-com .col1 .button {
+    background: url("../img/tm-brown-button.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top:20px;
+}
+.bg-com .col1 .button a{
+    text-decoration: none;
+}
+.bg-com .col1 .button a h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.popular-items{
+    margin: 0 240px;
+
+}
+.popular-items .head{
+    display:flex;
+}
+.popular-items .head .logo2{
+    margin-right: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color:#C79C60;
+}
+.popular-items .head .line{
+    width: 70%;
+    margin-top:30px;
+}
+.popular{
+    display:flex;
+    
+
+}
+.popu-col1{
+    
+
+    background: url(../img/popular-item-bg.png) no-repeat;
+background-size: 100% 100%;
+max-width: 294px;
+margin-top: 50px;
+margin-bottom: 80px;
+margin:  0 10px;
+
+}
+.popu-col1 img{
+    margin-left:4px;
+    margin-right:4px;
+}
+.popu-col1 .description{
+    filter:grayscale(100%);
+}
+.popu-col1 .description:hover{
+    filter:grayscale(0%);
+    transition: 0.5s ease-in;
+}
+.popu-col1 .description h1 {
+text-align: center;
+color:#C79C60;
+font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+.popu-col1 .description hr{
+    margin: auto;
+    width:50%;
+    border: 2px solid #C79C60;
+    margin-bottom: 10px;
+    border-radius:40px;
+}
+.popu-col1 .description p{
+
+    margin: 30px 10px 0px 10px;
+    text-align: center;
+}
+
+.order{
+    width: 100px;
+height: 100px;
+   margin:0 auto;
+    display: flex;
+    justify-content: center;
+    background:#524C4C;
+    border-radius: 50%;
+    align-items: center;
+    position: relative;
+    bottom: -33px;
+    border: 4px solid #c79c60;
+}
+
+
+
+.description .order a{
+    color:#C79C60;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Gloria Hallelujah', cursive;
+  
+    
+    
+}
+
+.special{
+    margin: 40px 200px;
+    
+}
+.spe-head{
+    display:flex;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    color:#C79C60;
+
+
+}
+
+
+.spe-head .line1{
+    width: 60%;
+    margin-top:15px;
+    margin-left:30px
+    
+}
+.spe-head .line1 hr{
+    color:#C79C60;
+}
+
+.spe-col{
+    display:flex;
+}
+
+.spe-col .col3{
+    margin: 20px 15px;
+}
+.spe-col .col3 .writing{
+    background: rgba(0,0,0,0.6);
+width: 100%;
+padding: 12px 10px 5px;
+position: relative;
+top:-100px;
+color:white;
+}
+
+.spe-col .col3 img{
+    border : 10px solid #fff;
+}
+.spe-col .col3 .row2{
+    display: flex;
+justify-content:space-between;
+margin-top:10px ;
+
+}
+.food-menu{
+    display:flex;
+    justify-content: space-between;
+}
+.menu-board{
+    margin-top:50px;
+}
+
+.food-list{
+    margin-top:50px;
+    margin-left: 50px;
+   
+}
+
+.food-list ol{
+    margin-top:50px;
+    margin-left: 100px;
+    
+    
+}
+.food-list ol li{
+    font-weight:bolder;
+    color:#C79C60;
+    font-size:20px;
+    font-family: 'Gloria Hallelujah', cursive;
+    }
+
+    .footer{
+        background-color:#282726;
+        margin-top: 50px;
+        display: flex;
+     
+        
+    }
+    .footer .col1{
+        margin-top:  50px;
+        color:white;
+        margin-left: 100px;
+        margin-right: 140px;
+        white-space: nowrap;
+
+    }
+    .footer .col1 li{
+        list-style: none;
+        letter-spacing:5px;
+    }
+    .col2{
+        margin-top:50px;
+        color:white;
+        margin-right: 100px;
+    }
+    .col3{
+        margin-top:50px;
+        color:white;
+        margin-right: 140px;
+    }
+    .footer .col3 p{
+        margin-top:30px;
+    }
+
+    .icon-pack{
+        display:flex;
+    }
+    .icon-pack .fab{
+        padding:10px;
+        font-size:30px;
+
+    }
+    .copyright{
+        margin: auto;
+        text-align: center;
+        
+        
+       
+    }
+    .copyright p{
+        height :40px;
+        background:white;
+       
+    }
+
+
+
+
+
+
+
+
+@media all and (max-width:805px)
+{
+
+    .fas{
+        
+        color:antiquewhite;
+        display: block !important;
+        margin-top:10px;
+        cursor:pointer;
+        font-size: 20px;
+        color:#C79C60;
+    }
+    .nav nav ul{
+        position: absolute;
+        top:60px;
+        right:0;
+        background:rgb(0, 0, 0);
+        width:50%;
+        overflow:scroll;
+        transition: max-height 0.9s;
+        align-items: center;
+    }
+    .nav nav ul li{
+        display:block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px ;
+        
+    }
+    .container2 .p{
+        margin:0 30px;
+    }
+    .table img{
+        display: block;
+        position: relative;
+        
+        margin: auto;
+        
+        background-size: cover;
+    
+    
+    }
+    .container2 .table img{
+        width:90%;
+        top:200px;
+        position: relative;
+
+
+    }
+    .container2 .details{
+        margin-top:300px;
+    }
+    
+    .bg-com{
+        margin: 100px 0px;
+        display:flex;
+    
+        
+    }
+    .popular-items{
+        margin: 0px;
+        
+    
+    }
+
+    .popular-items .head .logo2 {
+        margin:0px;
+        font-family: 'Gloria Hallelujah', cursive;
+        color: #C79C60;
+
+    }
+    .popu-col1{
+    
+
+        background: url(../img/popular-item-bg.png) no-repeat;
+    background-size: 96% 100%;
+    max-width: 294px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin:  0 10px;
+    
+    }
+
+    .popu-col1 img{
+        width:220px;
+    }
+    .special {
+        margin: 40px 0px;
+    }
+    .spe-head .line1 {
+        width: 50%;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .spe-col .col3 img {
+        border: 10px solid #fff;
+        width: 100%;
+    }
+    .spe-col .col3 .row2 {
+        display:block;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .special .col3 .row2 img{
+        width:50%;
+    }
+    .food-list {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .footer .col1 {
+        margin-top: 50px;
+        color: white;
+       
+        margin-right: 50px;
+        white-space: nowrap;
+    }
+    
+    .footer .col2 {
+        margin-top: 50px;
+        color: white;
+        margin-right: 0px;
+    }
+    .footer .col3 {
+        margin-top: 50px;
+        color: white;
+        margin-right: 0px;
+    }
+    .lights #light3 {
+        display:none;
+        
+    }
+
+
+
+
+
+
+
+
+   
+    
+}
+@media all and (max-width:805px)
+{
+    .nav {
+        display: flex;
+        margin: 0px 10px;
+        justify-content: space-around;
+    }
+    #light2{
+        display: none;
+    }
+    .min-container .header1 {
+        
+        margin-top: 40px;
+    }
+    .min-container .header {
+        color: white;
+        font-family: 'Sacramento', cursive;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .cafe {
+        display: flex;
+        justify-content: center;
+        color: #C79C60;
+        font-size: 20px;
+    }
+    .container2 .table img {
+        width: 90%;
+        top: 300px;
+        position: relative;
+    }
+    .bg-com .col1 {
+        margin: 0 0px;
+    }
+    .bg-com .col2 {
+        margin-top: 150px;
+        color: white;
+        margin-right: 0px;
+    }
+
+    .popular-items .head .line {
+        width: 40%;
+        margin-top: 30px;
+    }
+    .popu-col1 img {
+        width: 275px;
+    }
+    .popular {
+        display: block;
+    }
+    .popu-col1{
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+    .spe-col {
+        display: block;
+    }
+    .spe-head .line1{
+        width:30%;
+    }
+
+    .spe-head h1{
+        font-size: 20px;
+    }
+    .spe-col .col3 .row2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin: 0 10px;
+    }
+    .spe-col .col3 {
+        margin: 20px 0px;
+    }
+    .food-menu {
+        display: block;
+        
+    }
+    .footer {
+        background-color: #282726;
+        margin-top: 50px;
+        display: block;
+    }
+    .footer .col2 h2{
+        text-align: center;
+    }
+    .icon-pack {
+        display: flex;
+        justify-content: center;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
